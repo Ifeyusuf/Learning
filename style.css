@@ -4,6 +4,8 @@
     --whitegrey:#e7f0e4;
     --blue:#273443;
     --black:#1c1e21;
+    --yellow:#fcf2c6;
+    --green:#e7f0e4;
 }
 body{
     font-family: "poppins";
@@ -51,3 +53,4 @@ button:hover{
 .blue{
     background: var(--blue);
 }
+
