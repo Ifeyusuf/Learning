@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp</title>
+    <title>WhatsApp Download</title>
 
     <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
 
-    <link rel="stylesheet" href="bootstrap-5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.1/dist/css/bootstrap.min.css">
 
-<script src="./bootstrap-5.2.1/dist/js/bootstrap.min.js">
-</script>
+    <script src="/bootstrap-5.2.1/dist/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary2 position-fixed top-0 w-100 ">
         <div class="container-lg container-md-xxl justify-content-between  bg-secondary2 overflow-hidden  ">
+
+            <!-- MOBILE-PAGES ONLY -->
+           <div class="d-flex align-items-center">
+            <img src="/images/logo.svg" width="50px" class="d-md-none">
+
+            <h6 class="d-flex align-items-center ms-3 text-light d-md-none">Download WhatsApp</h6>
+           </div>
+            <!-- MOBILE-PAGES ONLY END HERE -->
+
+
             <!-- PC ONLY BRAND LOGO -->
             <a  class="navbar-brand pc-only-t" href="#"><img src="./images/3.png" style="width: 160px;" class="d-md-none pc-only d-lg-inline-block"></a>
             <!-- PC ONLY BRAND LOGO END HERE  -->
             <!-- TABLET ONLY BRAND LOGO -->
-            <a  class="navbar-brand" href="#" ><img src="./images/whats-logo2.png" class="d-lg-none tablet-only d-md-inline-block"></a>
+            <a  class="navbar-brand" href="#" ><img src="./images/logo.svg" class="d-lg-none tablet-only d-md-inline-block" width="55px"></a>
             <!-- TABLET ONLY BRAND LOGO END HERE -->
 
 
@@ -43,10 +51,10 @@
     <!-- NAVBAR END HERE -->
 
     <!-- MOBILE ONLY CONTENT START HERE -->
-    <section class="bg-secondary2 mobile-only ">
-        <div class="container-lg container-md-xxl pt-3 mobile-minus">
+    <section class="bg-secondary2 mobile-only d-none">
+        <div class="container-lg container-md-xxl pt-4 mobile-minus">
             <div class="mx-auto text-center py-4">
-                <img src="/images/whats-logo2.png" width="70px">
+                <img src="/images/logo.svg" width="70px">
                 <div class="text-center my-3 text-white ">
                     <h4 class="py-2">Simple. Secure. <br>Reliable Messaging.</h4>
                     <p class="py-4">With WhatsApp, you'll get fast, simple, secure messaging and calling for
@@ -70,62 +78,58 @@
     <!-- MOBILE ONLY CONTENT END HERE -->
 
 
-    <div class="container-lg container-md-xxl  pc-only overflow-hidden">
-        <div class="row overflow-hidden ">
-            <div class=" col bg-mb-green " >
-                <div class="my-5 pt-5 width-70 mx-auto  my-mobile-2  .py-mobile-2">
-                <h2 class="lh-2 d-flex align-items-center justify-content-center mt-5  my-mobile-2 pt-5">Simple. Secure.Reliable messaging.</h2>
-            </div>
-            <div class="width-70 mx-auto">
-                <p>With WhatsApp, you'll get fast, simple, secure messaging and calling for free*, available on phones all over the world.</p>
-                <small class="info-text">* Data charges may apply. Contact your provider for details.</small>
-            </div>
-            <ul class="nav d-block list-unstyled my-3 width-70 mx-auto">
-                <li class="nav-item"><a class="nav-link " href="#">Android</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">iphone</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Android</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Java</a></li>
-            </ul>
-            </div>
-            <div class="col  ">
-                <!-- <div class=" offset-md-4"> -->
-                    <div class="d-flex justify-content-center my-5 py-5 width-70 my-mobile-2 py-mobile-2">
-                    <img class="img-fluid my-5 " src="./images/whatssapp 1.png" width="300px">
+    <!-- MAIN START HERE -->
+<section>
+
+    <div class="container-xxl gx-0 overflow-hidden ">
+        <div class="row overflow-hidden">
+            <div class="col-md-6">
+                <div class="bg-green text-center py-5">
+                    <h3 class="pt-3 ">Phones</h3>
+                    
+                    <div class="row py-5 flex-lg-row  flex-md-column ">
+                        <div class="col-lg-6 col-md-6 mx-auto">
+                            <img src="/images/download-call.png" alt="">
+                            <form action="">
+                                <button class="btn bg-secondary2 border-radius btn-lg px-4  my-3 text-white"><small>Android</small></button>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 mx-auto">
+                            <img src="/images/download-call-3.png" alt="">
+
+                            <form action="">
+                                <button class="btn bg-secondary2 border-radius btn-lg px-4  my-3 text-white"><small>iphone</small></button>
+                            </form>
+                        </div>
+                    </div>
+                    <h5 class="pt-2 px-5 text-center h6">Visit <a href="" class="text-decoration-none">whatsapp.com/dl</a> on your mobile <p class="mt-2">phone to install. </p></h5>
+
+                    <p><small class="text-info">By installing WhatsApp, you agree to our <a href="" class="text-decoration-none">Terms & Privacy Policy.</a></small>
+                    </p>
                 </div>
-                <!-- </div> -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="bg-yellow text-center py-5 h-100">
+                    <h4 class="py-3">Mac or Windows PC</h4>
+                    <img src="/images/download-2.png" alt="" width="350px" class="pt-5">
+
+                    <div class="py-3 text-center">
+                        <p class="pt-3 px-5"><small>Windows 10 and higher. WhatsApp must be installed on your phone.</small></p>
+                        
+                        <p><a href="" class="text-decoration-none hover-b"><small>Learn more about desktop experiences on WhatsApp</small></a></p>
+
+                        <p><small>By clicking the Download button, you agree to our <a href="" class="text-decoration-none hover-b">Terms & Privacy <br>Policy.</a></small></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-xxl  ">
-    <div class=" row overflow-hidden  justify-center  gap-4  " >
-        <div class="col   px-md-2 col-md-6 whites my-  height-80 d-flex justify-content-center align-items-lg-center ">
-            <div class="text mt-5 width-80 text-center  ">
-        <h2  class=" my-5 fs-t"> WhatsApp Business App</h1>
-        <p >
-            WhatsApp Business is a free to download app that was built with the small business owner in mind. Create a catalog to showcase your products and services. Connect with your customers easily by using tools to automate, sort and quickly respond to messages.
-            
-            <p class="my-4">WhatsApp can also help medium and large businesses provide customer support and deliver important notifications to customers. Learn more about WhatsApp Business API.</p>
-            </p>
-        <div class="img-fluid d-flex justify-content-center mb-0 ">
-            <img src="./images/whattsapp 2.png" width="350" class="mb-mb-minus">
-    </div>
-    </div>
-    </div>
-        <div class="col grey  text-center height-80 d-flex justify-content-center align-items-center">
-            <div class="text width-80 ">
-                <div class="circle mx-auto rounded-circle my-4"></div>
-        <h6 class="text-muted mt-5" >END-TO-END ENCRYPTION</h6>
-           <h2 class="my-3"> Security by Default</h2>
-           <p class="d-flex align-items-center "> Some of your most personal moments are shared on WhatsApp, which is why we built end-to-end encryption into the latest versions of our app. When end-to-end encrypted, your messages and calls are secured so only you and the person you're communicating with can read or listen to them, and nobody in between, not even WhatsApp. </p>
-        </div>
-    </div>
-    </div>
-</div>
+</section>
+
 
 <!-- FOOTER BEGIN HERE -->
-    <div class="d-flex justify-content-center my-5">
-    <button type="button" class="btn btn-light btn-lg border border-success border-2 rounded-pill outline-danger px-3  py-2 text-success lh-3 fw-800  ">EXPLORE FEATURES</button>
-</div>
 <div class="footer blue">
     <div class="container-md  blue ">
         <div class="row overflow-hidden ">
@@ -171,7 +175,7 @@
     <div class="container ">
         <div class="row  text-white overflow-hidden d-flex justify-content-evenly  " >
             <div class=" col-9 px-5">
-                <a class="text-decoration-none text-white "  href="#"> <p class="my-3"><span class="year"></span> &copy; Whatsapp LLC</p></a>
+                <a class="text-decoration-none text-white "  href="#"> <p class="my-3"><span id="year"></span> &copy; Whatsapp LLC</p></a>
             </div>
             <div class=" col-3 ">
              <a class="text-decoration-none text-white" href="#"><p class="my-3">Privacy & Terms > </p></a>
